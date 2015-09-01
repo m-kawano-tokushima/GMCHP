@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#CCC;
+	color:#333;
+}
+a:link {
+	color:#069;
+	text-decoration:none;
+}
+a:visited {
+	color:#969696;
+	text-decoration:none;
+}
+
+/* -------------------- */
+#wrap {
+	background-color:#FFF;
+	color:#333;
+	margin:0 auto;
+	padding:0;
+	width:1000px;
+	text-align:left;
+}
+
+/* -------------------- */
+#header {
+	height:100px;
+	margin:0;
+	padding:15px;
+}
+
+/* -------------------- */
+#menu1 {
+	margin: 0 0 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 15px;
+}
+
+.menu li {
+	text-align: center;
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	color: #333;
+	width: 220px;
+	height: 30px;
+	display: block;
+	padding: 20px 10px 10px 10px;
+	margin: 10px 0 0 8px;
+	background-color: #FFDD00;
+}
+
+.menu1_1 a{
+	clear:left;
+	background-color: #ffdd00;
+}
+
+.menu1_2 a{
+	clear:left;
+	background-color: #F93;
+}
+
+.menu1_3 a{
+	clear:left;
+	background-color: #FC6;
+}
+
+.menu1_4 a{
+	clear:left;
+	background-color:  #FF9;
+}
+
+.menu1_5 a{
+	clear:left;
+	background-color: #F63;
+}
+
+.menu1_6 a{
+	clear:left;
+	background-color: #F96;
+}
+
+.menu1_7 a{
+	clear:left;
+	background-color: #FC9;
+}
+
+.menu1_8 a{
+	clear:left;
+	background-color: #FFC;
+}
+
+/* -------------------- */
+#content {
+	margin: 10px;
+	padding: 10px;
+	border:solid #F90 5px;
+	overflow: hidden;
+}
+
+#content p {
+	color:#333;
+	line-height:1.5em;
+}
+
+.title {
+	padding:0 0 10px 0;
+	border-bottom:solid 3px;
+	font-size: 36px;
+}
+
+.content1{
+	color: #F90;
+}
+
+.inbox {
+	color: #333;
+	list-style-type: none;
+	font-size: 24px;
+	background-color: #FF9;
+	text-align: center;
+	padding: 15px;
+	width: 200px;
+	float: right;
+}
+
+.staff {
+	list-style-type: none;
+	line-height:2em;
+	font-size: 24px;
+}
+
+.slider{
+	margin: 10px 0;
+	padding: 0;
+	overflow: hidden;
+}
+/* -------------------- */
+#menu2 {
+	overflow: hidden;
+}
+
+.menu2 {
+	margin: 0;
+	padding: 0;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 15px;
+}
+
+.menu2 li {
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	color: #fff;
+}
+
+.menu2 li a {
+	color: #333;
+	width: 300px;
+	height: 20px;
+	display: block;
+	padding: 20px 10px 20px 10px;
+	display: block;
+	margin-left:10px;
+	background-color: #FFDD00;
+}
+
+/* -------------------- */
+#footer {
+	text-align: center;
+　　clear: both;
+	padding-top: 50px;
+}
+
+.copyright {
+	margin-top: 10px;
+	padding-top: 15px;
+	height: 30px;
+	background-color: #F60;
+	color: #FFF;
+}

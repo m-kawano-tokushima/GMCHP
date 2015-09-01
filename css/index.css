@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #CCC;
+	color: #333;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+
+}
+a:link {
+	color: #069;
+	text-decoration: none;
+}
+a:visited {
+	color: #969696;
+	text-decoration: none;
+}
+/* -------------------- */
+#wrap {
+	background-color: #FFF;
+	margin: 0 auto;
+	padding: 0;
+	width: 900px;
+	text-align: left;
+}
+/* -------------------- */
+#header {
+	height: 100px;
+	margin: 0;
+	padding: 15px;
+}
+/* -------------------- */
+#menu {
+	margin: 0 0 0;
+	padding: 0;
+	overflow: hidden;
+}
+.menu1 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+.menu1 li {
+	list-style-type: none;
+	float: left;
+}
+.menu1 li a {
+	color: #333333;
+	margin: 10px 0px 8px 12px;
+	padding: 10px 0px;
+	height: 40px;
+	width: 210px;
+	background-color: #FFDD00;
+	display: block;
+}
+.menu2 {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+/* -------------------- */
+#content {
+	margin: 10px;
+	padding: 10px;
+	border:solid #F90 5px;
+	border-radius:15px;
+	font-size:24px;
+}
+.slider {
+	margin: 10px 0;
+	padding: 0;
+	overflow: hidden;
+}
+#content p {
+	color:#333;
+	line-height:1.5em;
+}
+.sentence {
+	text-indent: 1em;
+}
+.title {
+	padding:0 0 10px 0;
+	color: #F90;
+	border-bottom:solid 3px;
+}
+.subtitle {
+	float:left;
+	margin: 10px 20px 5px;
+	padding:5px 0px;
+	border-bottom:solid 3px #c60;
+	font-size: 30px;
+	text-align: center;
+}
+.clear {
+	clear:both;
+}
+.none {
+	list-style-type: none;
+	line-height: 1.3em;
+
+}
+/* ---講座紹介----------------- */
+
+.inbox {
+	font-size: 24px;
+	text-align: center;
+	padding: 15px;
+	margin-left: 550px;
+}
+/* ---スタッフ紹介----------------- */
+.staff {
+	padding: 20px 10px 10px 10px;
+	border-bottom: #F90 solid 3px;
+}
+.staffname {
+	color: #FC0;
+	line-height:1.5em;
+	font-size: 36px;
+	padding-left: 30px;
+}
+.staff p {
+	overflow:hidden;
+}
+.staffphoto {
+	-ms-interpolation-mode: bicubic;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	float: left;
+}
+/* ---教授挨拶----------------- */
+.salute {
+	margin-top: 10px;
+	padding: 0px 10px;
+	overflow: hidden;
+	min-height: 200px;
+}
+.salutephoto {
+	-ms-interpolation-mode: bicubic;
+	margin-top:30px;
+	margin-right: 10px;
+	float: left;
+}
+.salutename {
+	float:right;
+}
+/* ---行事予定----------------- */
+.schedule {
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+	border: 5px solid #FF6600;
+	border-radius: 10px;
+}
+.schedulecontents {
+	list-style-type: none;
+	line-height: 1.3em;
+	padding: 10px 0px;
+}
+/* ---講座見学希望者の方----------------- */
+.job {
+	font-size: 30px;
+}
+.job li {
+	padding: 40px 0;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	margin-left: 50px;
+	width: 300px;
+}
+.buttom a {
+	color: #333;
+	display: block;
+	background-color: #ffdd00;
+	padding: 10px;
+	border: 2px solid #b9b9b9;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#ffc),to(#ffdd00));
+	background: -moz-linear-gradient(top,#ffc,#ffdd00);
+	-webkit-box-shadow: 0 1px 1px #ffd;
+	-moz-box-shadow: 0 1px 1px #fff;
+	box-shadow: 0 1px 1px #ffd;
+	text-transform: uppercase;
+	text-shadow: 0 -1px 1px rgba(0,0,0,.4);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc',endColorstr='#ffdd00');
+	cursor: pointer;
+}
+
+/* -------------------- */
+#footer {
+	text-align: center;
+	　　clear: both;
+	padding-top: 50px;
+}
+.copyright {
+	margin-top: 10px;
+	padding-top: 15px;
+	height: 30px;
+	background-color: #F60;
+	color: #FFF;
+}
+
+/* ---スライドショー----------------- */
+#slideshow {
+   position: relative;
+   width:  690px; /* 画像の横幅に合わせて記述 */
+   height: 530px; /* 画像の高さに合わせて記述 */
+}
+#slideshow img {
+   position: absolute;
+   top: 0;
+   left: 130px;
+   z-index: 8;
+   opacity: 0.0;
+}
+#slideshow img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+#slideshow img.last-active {
+   z-index: 9;
+}
